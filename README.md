@@ -39,3 +39,6 @@ yarn build
 ```bash
 yarn start
 ```
+
+# You can also see the app live
+[Here](https://star-wars-characters-lime.vercel.app/)
