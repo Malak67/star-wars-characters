@@ -1,6 +1,6 @@
-# Next.js & NextUI Template
+# Start Wars Characters App
 
-This is a template for creating applications using Next.js 13 (app directory) and NextUI (v2).
+This is a Next.js app which shows the list of all Star Wars characters using the free API from SWAPI (https://swapi.dev/)
 
 ## Technologies Used
 
@@ -11,30 +11,31 @@ This is a template for creating applications using Next.js 13 (app directory) an
 - [TypeScript](https://www.typescriptlang.org/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
+- [React Query](https://tanstack.com/query/v3/)
 
 ## How to Use
-
-
-### Use the template with create-next-app
-
-To create a new project based on this template using `create-next-app`, run the following command:
-
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
 
 ### Install dependencies
 
 ```bash
-npm install
+yarn
 ```
 
 ### Run the development server
 
 ```bash
-npm run dev
+yarn dev
 ```
 
-## License
+### Run the build process
 
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+```bash
+yarn build
+```
+
+
+### Start the app
+
+```bash
+yarn start
+```
